@@ -1,46 +1,46 @@
 body {
     font-family: Arial, Helvetica, sans-serif; /* Fonte universal herdada por todo o site */
-    margin: 0;                                 /* Remove margens padrão do navegador */
+    margin: 0;                             /* Remove margens padrão do navegador */
     padding: 0;
 }
 
 header {
-    background-color: #b4cbc5; /* cor de fundo */
-    color: #013005;            /* cor da fonte */
-    text-align: center;        /* centraliza o texto horizontalmente */
-    max-width: 800px;          /* define a largura máxima que o elemento pode ter */
-    margin: 0 auto;            /* centraliza o bloco inteiro na tela */
-    padding: 16px;             /* espaçamento interno entre a borda e o conteúdo */
+    background-color: #cbcbc5; /* Cor de fundo */
+    color: #013009;            /* Cor da fonte */
+    text-align: center;        /* Centraliza o texto horizontalmente */
+    max-width: 900px;          /* Define a largura máxima que o elemento pode ter */
+    margin: 0 auto;            /* Centraliza o bloco inteiro na tela */
+    padding: 10px;             /* Espaçamento interno entre a borda e o conteúdo */
 }
 
 h1 {
-    color: #17048f;
+    color: #4e2e7c;
 }
 
 main {
-    background-color: #60faff; /* Nota: Na imagem parece haver um erro de digitação do hexadecimal 'm', caso não funcione tente usar outra cor como #e2d7cc */
-    color: #013005;
-    max-width: 800px;
+    background-color: #e2e7dc;
+    color: #4e2e7c;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 16px;
+    padding: 10px;
 }
 
 article {
     display: flex;
-    margin-bottom: 60px; /* Empurra o artigo de baixo, criando o espaço */
+    margin-bottom: 20px; /* Empurra o artigo de baixo, criando o espaço */
 }
 
 img {
-    width: 150px;          /* define a largura fixa da imagem */
-    height: 150px;         /* define a altura fixa da imagem */
-    border: 2px solid #17048f; /* adiciona uma borda sólida de 2px na cor azul/roxa */
-    display: block;        /* transforma a imagem em um bloco para aceitar margens verticais e quebra de linha */
-    margin: 0 auto;        /* centraliza a imagem horizontalmente na tela */
+    width: 150px;       /* Define a largura fixa da imagem */
+    height: 150px;      /* Define a altura fixa da imagem */
+    border: 2px solid #17045f; /* Adiciona uma borda sólida de 2px na cor azul/roxa */
+    display: block;     /* Transforma a imagem em um bloco para aceitar margens verticais e quebra de linha */
+    margin: 0 auto;     /* Centraliza a imagem horizontalmente na tela */
     align-self: center;
 }
 
 .artigo-autor {
-    font-weight: bold; /* deixa o texto em negrito */
+    font-weight: bold; /* Deixa o texto em negrito */
 }
 
 .texto-curto {
@@ -48,10 +48,10 @@ img {
 }
 
 footer {
-    background-color: #b4cbc5; /* Mesma cor escura do texto do header para combinar */
-    color: #013005;            /* Cor de fonte branca para dar contraste e leitura */
+    background-color: #cbcbc5; /* Mesma cor escura do texto do header para combinar */
+    color: #013009;            /* Cor de fonte branca para dar contraste e leitura */
     text-align: center;        /* Centraliza o texto horizontalmente */
-    max-width: 800px;          /* Mantém o mesmo alinhamento do header e do main */
+    max-width: 900px;          /* Mostra o mesmo alinhamento do header e do main */
     margin: 0 auto;            /* Centraliza o bloco inteiro na tela */
     padding: 20px;             /* Cria um espaçamento interno para o fundo aparecer bem */
     font-size: 14px;           /* Deixa o texto do rodapé um pouco menor e discreto */
